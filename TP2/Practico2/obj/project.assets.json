@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Matias-Pc\\.nuget\\packages\\": {}
+    "C:\\Users\\julio_notebook\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\MatiasWD\\Coder\\TPTaller2\\TP2\\Practico2\\Practico2.csproj",
+      "projectUniqueName": "C:\\Users\\julio_notebook\\Desktop\\TALLER2\\TP2\\Practico2\\Practico2.csproj",
       "projectName": "Practico2",
-      "projectPath": "W:\\MatiasWD\\Coder\\TPTaller2\\TP2\\Practico2\\Practico2.csproj",
-      "packagesPath": "C:\\Users\\Matias-Pc\\.nuget\\packages\\",
-      "outputPath": "W:\\MatiasWD\\Coder\\TPTaller2\\TP2\\Practico2\\obj\\",
+      "projectPath": "C:\\Users\\julio_notebook\\Desktop\\TALLER2\\TP2\\Practico2\\Practico2.csproj",
+      "packagesPath": "C:\\Users\\julio_notebook\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\julio_notebook\\Desktop\\TALLER2\\TP2\\Practico2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Matias-Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julio_notebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
