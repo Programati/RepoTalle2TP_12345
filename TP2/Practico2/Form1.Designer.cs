@@ -127,7 +127,7 @@
             BEliminar.Name = "BEliminar";
             BEliminar.Size = new Size(90, 30);
             BEliminar.TabIndex = 5;
-            BEliminar.Text = "Elimi";
+            BEliminar.Text = "Eliminar";
             BEliminar.UseVisualStyleBackColor = true;
             BEliminar.Click += BEliminar_Click;
             // 
