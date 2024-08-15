@@ -1,0 +1,11 @@
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\bin\Debug\Practico3.exe.config
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\bin\Debug\Practico3.exe
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\bin\Debug\Practico3.pdb
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\obj\Debug\Practico3.csproj.AssemblyReference.cache
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\obj\Debug\Practico3.Form1.resources
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\obj\Debug\Practico3.Properties.Resources.resources
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\obj\Debug\Practico3.csproj.GenerateResource.cache
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\obj\Debug\Practico3.csproj.CoreCompileInputs.cache
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\obj\Debug\Practico3.exe
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\obj\Debug\Practico3.pdb
+W:\MatiasWD\Coder\TPTaller2\TP3\Practico3\Practico3\obj\Debug\Practico3.PequeñoSistema.resources
