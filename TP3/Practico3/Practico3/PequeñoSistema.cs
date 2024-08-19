@@ -107,9 +107,5 @@ namespace Practico3
             }
         }
 
-        private void PequeñoSistema_Load(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

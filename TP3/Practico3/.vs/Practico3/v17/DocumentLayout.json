@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|w:\\matiaswd\\coder\\tptaller2\\tp3\\practico3\\practico3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|w:\\matiaswd\\coder\\tptaller2\\tp3\\practico3\\practico3\\peque\u00F1osistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|solutionrelative:practico3\\peque\u00F1osistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\practico3\\peque\u00F1osistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|solutionrelative:practico3\\peque\u00F1osistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\practico3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|solutionrelative:practico3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\practico3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FB4543A-566C-445C-A571-350641398513}|Practico3\\Practico3.csproj|solutionrelative:practico3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,6 +35,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Peque\u00F1oSistema.cs",
+              "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Peque\u00F1oSistema.cs",
+              "RelativeDocumentMoniker": "Practico3\\Peque\u00F1oSistema.cs",
+              "ToolTip": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Peque\u00F1oSistema.cs",
+              "RelativeToolTip": "Practico3\\Peque\u00F1oSistema.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAQwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:01:33.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Peque\u00F1oSistema.cs [Dise\u00F1o]",
+              "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Peque\u00F1oSistema.cs",
+              "RelativeDocumentMoniker": "Practico3\\Peque\u00F1oSistema.cs",
+              "ToolTip": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Peque\u00F1oSistema.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practico3\\Peque\u00F1oSistema.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:01:31.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Program.cs",
+              "RelativeDocumentMoniker": "Practico3\\Program.cs",
+              "ToolTip": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Program.cs",
+              "RelativeToolTip": "Practico3\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T18:01:08.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Form1.cs",
               "RelativeDocumentMoniker": "Practico3\\Form1.cs",
@@ -30,20 +78,18 @@
               "RelativeToolTip": "Practico3\\Form1.cs",
               "ViewState": "AQIAAEwAAAAAAAAAAAAcwFkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T23:55:55.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T23:55:55.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Form1.cs",
               "RelativeDocumentMoniker": "Practico3\\Form1.cs",
               "ToolTip": "W:\\MatiasWD\\Coder\\TPTaller2\\TP3\\Practico3\\Practico3\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Practico3\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T23:28:55.908Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-08-14T23:28:55.908Z"
             }
           ]
         }
