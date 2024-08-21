@@ -12,14 +12,14 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Practico4
 {
-    public partial class Form1 : Form
+    public partial class Inicio : Form
     {
         private Int16 desde;
         Int16 hasta;
         //Vectores para el gráfico
         string[] series = {"Pares", "Impares", "Primos","Total"};
         int[] puntos = {};
-        public Form1()
+        public Inicio()
         {
             InitializeComponent();
             chart1.Titles.Add("Lista de numeros");

@@ -2,9 +2,9 @@ W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\bin\Debug\Practico4.exe.conf
 W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\bin\Debug\Practico4.exe
 W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\bin\Debug\Practico4.pdb
 W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\obj\Debug\Practico4.csproj.AssemblyReference.cache
-W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\obj\Debug\Practico4.Form1.resources
 W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\obj\Debug\Practico4.Properties.Resources.resources
 W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\obj\Debug\Practico4.csproj.GenerateResource.cache
 W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\obj\Debug\Practico4.csproj.CoreCompileInputs.cache
 W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\obj\Debug\Practico4.exe
 W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\obj\Debug\Practico4.pdb
+W:\MatiasWD\Coder\TPTaller2\TP4\Practico4\Practico4\obj\Debug\Practico4.Inicio.resources

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3685DBE-9830-41DE-80D0-DFCE23702241}|Practico4\\Practico4.csproj|w:\\matiaswd\\coder\\tptaller2\\tp4\\practico4\\practico4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E3685DBE-9830-41DE-80D0-DFCE23702241}|Practico4\\Practico4.csproj|solutionrelative:practico4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E3685DBE-9830-41DE-80D0-DFCE23702241}|Practico4\\Practico4.csproj|w:\\matiaswd\\coder\\tptaller2\\tp4\\practico4\\practico4\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3685DBE-9830-41DE-80D0-DFCE23702241}|Practico4\\Practico4.csproj|solutionrelative:practico4\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3685DBE-9830-41DE-80D0-DFCE23702241}|Practico4\\Practico4.csproj|w:\\matiaswd\\coder\\tptaller2\\tp4\\practico4\\practico4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3685DBE-9830-41DE-80D0-DFCE23702241}|Practico4\\Practico4.csproj|solutionrelative:practico4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3685DBE-9830-41DE-80D0-DFCE23702241}|Practico4\\Practico4.csproj|w:\\matiaswd\\coder\\tptaller2\\tp4\\practico4\\practico4\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3685DBE-9830-41DE-80D0-DFCE23702241}|Practico4\\Practico4.csproj|solutionrelative:practico4\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\Practico4\\Form1.cs",
-              "RelativeDocumentMoniker": "Practico4\\Form1.cs",
-              "ToolTip": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\Practico4\\Form1.cs",
-              "RelativeToolTip": "Practico4\\Form1.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAAAIEAAABBAAAA",
+              "DocumentIndex": 0,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\Practico4\\Inicio.cs",
+              "RelativeDocumentMoniker": "Practico4\\Inicio.cs",
+              "ToolTip": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\Practico4\\Inicio.cs",
+              "RelativeToolTip": "Practico4\\Inicio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T20:10:21.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\Practico4\\Form1.cs",
-              "RelativeDocumentMoniker": "Practico4\\Form1.cs",
-              "ToolTip": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\Practico4\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Practico4\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\Practico4\\Inicio.cs",
+              "RelativeDocumentMoniker": "Practico4\\Inicio.cs",
+              "ToolTip": "W:\\MatiasWD\\Coder\\TPTaller2\\TP4\\Practico4\\Practico4\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practico4\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T20:02:51.726Z",
               "EditorCaption": " [Dise\u00F1o]"

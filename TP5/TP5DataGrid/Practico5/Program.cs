@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Practico4
+namespace Practico5
 {
     internal static class Program
     {
