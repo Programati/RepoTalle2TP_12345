@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace Practico5
     public partial class Inicio : Form
     {
         private int n = 0;
+        string imagePathCelda = null;
         public Inicio()
         {
             InitializeComponent();
@@ -48,12 +50,26 @@ namespace Practico5
                     dtgvCliente.Rows[n].DefaultCellStyle.BackColor = Color.Red;
                 }
                 dtgvCliente.Rows[n].Cells[5].Value = Decimal.Parse(txtSaldo.Text);
-                
-                Image imagen = Image.FromFile(txtFoto.Text);
+
+                /*GUARDAR IMAGEN*/
+                string rutaImagen = txtFoto.Text;
+                // Establecer la ruta de destino en la carpeta "Images" dentro del proyecto
+                string projectDirectory = AppDomain.CurrentDomain.BaseDirectory; // Directorio base del proyecto
+                string imagesDirectory = Path.Combine(projectDirectory, "Fotos");
+                // Obtener el nombre del archivo
+                string fileName = Path.GetFileName(rutaImagen);
+                // Establecer la ruta de destino completa
+                string destinationFilePath = Path.Combine(imagesDirectory, fileName);
+                // Copiar la imagen al directorio de destino
+                File.Copy(rutaImagen, destinationFilePath, true); // El tercer parámetro (true) permite sobrescribir si el archivo ya existe
+
+
+                Image imagen = Image.FromFile(destinationFilePath);
                 dtgvCliente.Rows[n].Cells[6].Value = imagen;
 
 
-                dtgvCliente.Rows[n].Cells[7].Value = txtFoto.Text;
+                dtgvCliente.Rows[n].Cells[7].Value = destinationFilePath;
+                string imagePath = pictureBox1.ImageLocation;
 
                 limpiarCampos();
             }
@@ -116,13 +132,16 @@ namespace Practico5
                     if (ask == DialogResult.Yes) 
                     {
                         MessageBox.Show("El Cliente: " + cliente + " se eliminó correctamente", "Eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        // Ruta de la imagen que se desea eliminar
+                        //imagePathCelda = (string)dtgvCliente.Rows[n].Cells[7].Value;
+                        //MessageBox.Show("Ruta: " + imagePathCelda, "Eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         dtgvCliente.Rows.RemoveAt(n);
                     }
 
-                }
-                    
-                
+                }                                   
             }
+            // Eliminar el archivo
+            //File.Delete(imagePathCelda);
             
         }
 
