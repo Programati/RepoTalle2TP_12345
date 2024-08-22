@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -51,13 +52,14 @@ namespace Practico5
                 }
                 dtgvCliente.Rows[n].Cells[5].Value = Decimal.Parse(txtSaldo.Text);
 
+                                    
                 /*GUARDAR IMAGEN*/
                 string rutaImagen = txtFoto.Text;
                 // Establecer la ruta de destino en la carpeta "Images" dentro del proyecto
                 string projectDirectory = AppDomain.CurrentDomain.BaseDirectory; // Directorio base del proyecto
                 string imagesDirectory = Path.Combine(projectDirectory, "Fotos");
                 // Obtener el nombre del archivo
-                string fileName = Path.GetFileName(rutaImagen);
+                string fileName = Path.GetFileName(rutaImagen+ dateTimePicker1.ToString());
                 // Establecer la ruta de destino completa
                 string destinationFilePath = Path.Combine(imagesDirectory, fileName);
                 // Copiar la imagen al directorio de destino
@@ -118,32 +120,6 @@ namespace Practico5
             }
         }
 
-        private void dtgvCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            n = e.RowIndex;
-
-            if (n != -1)
-            {
-                string dato = (string)dtgvCliente.Rows[n].Cells[4].Value;
-                string cliente = (string)dtgvCliente.Rows[n].Cells[0].Value + " " + (string)dtgvCliente.Rows[n].Cells[1].Value;
-                if (!string.IsNullOrEmpty(dato) && e.ColumnIndex == 4)
-                {
-                    DialogResult ask = MessageBox.Show("Está a punto de eliminar al Cliente: " + cliente, "Confirmar Eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
-                    if (ask == DialogResult.Yes) 
-                    {
-                        MessageBox.Show("El Cliente: " + cliente + " se eliminó correctamente", "Eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        // Ruta de la imagen que se desea eliminar
-                        //imagePathCelda = (string)dtgvCliente.Rows[n].Cells[7].Value;
-                        //MessageBox.Show("Ruta: " + imagePathCelda, "Eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        dtgvCliente.Rows.RemoveAt(n);
-                    }
-
-                }                                   
-            }
-            // Eliminar el archivo
-            //File.Delete(imagePathCelda);
-            
-        }
 
         private void limpiarCampos()
         {
@@ -156,5 +132,42 @@ namespace Practico5
             pictureBox1.Image = Practico5.Properties.Resources.usuario;
         }
 
+        private void dtgvCliente_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            n = e.RowIndex;
+
+            if (n != -1)
+            {
+                string dato = (string)dtgvCliente.Rows[n].Cells[4].Value;
+                string cliente = (string)dtgvCliente.Rows[n].Cells[0].Value + " " + (string)dtgvCliente.Rows[n].Cells[1].Value;
+                if (!string.IsNullOrEmpty(dato) && e.ColumnIndex == 4)
+                {
+                    DialogResult ask = MessageBox.Show("Está a punto de eliminar al Cliente: " + cliente, "Confirmar Eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2);
+                    if (ask == DialogResult.Yes)
+                    {
+                        MessageBox.Show("El Cliente: " + cliente + " se eliminó correctamente", "Eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        // Ruta de la imagen que se desea eliminar
+                        //imagePathCelda = (string)dtgvCliente.Rows[n].Cells[7].Value;
+                        //MessageBox.Show("Ruta: " + imagePathCelda, "Eliminar", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        dtgvCliente.Rows.RemoveAt(n);
+                        limpiarCampos();
+                    }
+
+                }
+                if (!string.IsNullOrEmpty(dato) && e.ColumnIndex != 4)
+                {
+                    txtApellido.Text = dtgvCliente.Rows[n].Cells[0].Value.ToString();
+                    txtNombre.Text = dtgvCliente.Rows[n].Cells[1].Value.ToString();
+                    dateTimePicker1.Value = Convert.ToDateTime(dtgvCliente.Rows[n].Cells[2].Value.ToString());
+                    if (dtgvCliente.Rows[n].Cells[2].Value.ToString() == "Hombre") rdbHombre.Checked = true;
+                    else rdbMujer.Checked = true;
+                    txtSaldo.Text = dtgvCliente.Rows[n].Cells[5].Value.ToString();
+                    pictureBox1.Image = Image.FromFile(dtgvCliente.Rows[n].Cells[7].Value.ToString());
+                    txtFoto.Text = dtgvCliente.Rows[n].Cells[7].Value.ToString();
+                }
+            }
+            // Eliminar el archivo
+            //File.Delete(imagePathCelda);
+        }
     }
 }

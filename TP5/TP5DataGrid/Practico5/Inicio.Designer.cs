@@ -278,7 +278,7 @@
             this.dtgvCliente.RowTemplate.Height = 50;
             this.dtgvCliente.Size = new System.Drawing.Size(884, 163);
             this.dtgvCliente.TabIndex = 2;
-            this.dtgvCliente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvCliente_CellContentClick);
+            this.dtgvCliente.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvCliente_CellClick);
             // 
             // Apellido
             // 
